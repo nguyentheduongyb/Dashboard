@@ -1,0 +1,44 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    // background-image: url("../../assets/images/bg.svg");
+    // background-repeat: no-repeat;
+    // background-position: 20% 150px;
+    ::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        border-radius: 15px;
+        background-color: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(
+            90deg,
+            rgb(45, 127, 209) 0%,
+            rgb(190, 137, 137) 100%
+        );
+        max-width: 20% !important;
+        border-radius: 15px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(
+            90deg,
+            rgb(15, 111, 207) 0%,
+            rgb(195, 125, 125) 100%
+        );
+    }
+    ::-webkit-resizer {
+        max-width: 12px !important;
+    }
+}
+.inner {
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+.wrapper {
+
+    width: 100%;
+    background-image: url("https://www.themoviedb.org/t/p/w1920_and_h427_multi_faces/zNugnnR5KEmq9EzLcl0Me1UmHYk.jpg");
+    background-repeat: no-repeat;
+    color: #fff;
+    height: 100%;
+    background-size: 100%;
+    padding-top:22.3%;
+    position: relative;
+}
+
+.cover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(3, 37, 65, 0.6);
+}
+.inner{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    z-index: 99;
+    height: 100%;
+}
+.content {
+    padding-left: 40px;
+    img {
+        width: 300px;
+        border-radius: 6px;
+    }
+    i {
+        font-size: 42px;
+        color: #fff;
+        position: absolute;
+    }
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.information {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

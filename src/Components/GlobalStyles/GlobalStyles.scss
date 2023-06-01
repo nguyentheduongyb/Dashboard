@@ -1,0 +1,87 @@
+@import "normalize.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap');
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --default-layout-header: 60px;
+    --text-color: #ccc;
+    --default-layout-width: 1280px;
+    --defaut-bg-color: linear-gradient(
+        90deg,
+        rgb(148, 192, 239) 0%,
+        rgb(252, 229, 239) 100%
+    );
+}
+.App{
+    width: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+html {
+    font-size: 16px;
+}
+body {
+    
+}
+#root{
+    width: 100%;
+}
+a[href] {
+    text-decoration: none;
+    color: var(--black);
+}
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    padding: 0;
+    font-weight: 600;
+}
+p{
+    margin:0;
+    padding:0;
+}
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+ul{
+    padding: 0;
+    margin:0;
+}
+li {
+    list-style: none;
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    // margin-top: var(--default-layoutheader);
+}
+@media (min-width: 740px) {
+
+}
+@media (min-width: 1113px) {
+    .container {
+        width: 1200px;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .container {
+        width: 1000px;
+    }
+}
+@media (min-width: 1113px) {
+
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

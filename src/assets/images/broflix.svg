@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="" width="68" viewBox="150 83.5 530 145">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 172px;
+        font-family: SVN-Androgyne;
+      }
+
+      .cls-2 {
+        fill: #fdf4f1;
+      }
+    </style>
+  </defs>
+  <text id="BroFlix_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_sed_" data-name="BroFlix ipsum dolor sit amet, consectetur adipiscing elit, sed " className="cls-1" x="155.75" y="207.75">BroFlix<tspan className="cls-2"> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </tspan></text>
+</svg>

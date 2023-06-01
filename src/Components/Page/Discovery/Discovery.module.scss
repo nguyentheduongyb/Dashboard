@@ -1,0 +1,39 @@
+.wrapper {
+    width: 100%;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    background-image: url("../../../assets/images/minionstupid.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 160px;
+    font-size: 1rem;
+    background-position: center;
+}
+.content {
+    padding: 40px 20px;
+    width: 100%;
+}
+
+@media (min-width: 740px) {
+    .wrapper {
+        height: 400px;
+    }
+    .container {
+        width: 100%;
+    }
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (min-width: 1113px) {
+    .content {
+        margin: 0;
+        width: 1200px;
+        padding: 40px;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

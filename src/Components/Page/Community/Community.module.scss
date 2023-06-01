@@ -1,0 +1,85 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    background-image: url("../../../assets/images/thor-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 0px;
+    padding-top: 20%;
+    color: #fff;
+    margin-bottom: 48px;
+}
+.cover {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(3, 37, 65, 0.4);
+}
+
+
+.content {
+    color: #fff;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 99909999999999;
+    
+}
+.btn {
+    width: 62px;
+    height: 28px;
+    margin-top: 6px;
+    background-color: blue;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+// @media (min-width: 740px) {
+//     .title {
+//         margin-bottom: 24px;
+//     }
+//     .content {
+//         p {
+//             font-size: 1.2rem;
+//         }
+//     }
+//     .btn {
+//         margin-top: 16px;
+//         width: 68px;
+//         height: 32px;
+//     }
+// }
+// @media (min-width: 1113px) {
+//     .wrapper {
+//         font-size: 1.6rem;
+//         background-position: 0% -50px;
+//     }
+//     .title {
+//         margin-bottom: 24px;
+//     }
+//     .content {
+//         ul {
+//             display: block;
+//             font-size: 1.6rem;
+//         }
+//         p {
+//             font-size: 1.6rem;
+//             margin-bottom: 24px;
+//         }
+//     }
+//     .btn {
+//         width: 92px;
+//         height: 42px;
+//         font-size: 1.6rem;
+//     }
+// }
+// @media (min-width: 740px) and (max-width: 1023px) {
+// }
+// @media (min-width: 1024px) and (max-width: 1239px) {
+// }

@@ -1,0 +1,57 @@
+.poster {
+    border-radius: 8px;
+    position: relative;
+}
+.actions {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    display: none;
+
+    h6 {
+        display: inline-block;
+    }
+}
+
+.action {
+    margin: 8px 0;
+}
+.hover {
+    transition: transform 0.2s;
+    cursor: grab;
+    &:hover {
+        transform: scale(1.05);
+    }
+    &:hover .actions {
+        display: flex;
+    }
+}
+.time {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.6rem;
+    font-family: "Source Sans Pro", Arial, sans-serif;
+}
+
+@media (min-width: 740px) {
+    .item {
+        min-width: calc(100% / 5);
+    }
+}
+@media (min-width: 1113px) {
+    .navigation {
+        display: flex;
+    }
+    .item {
+        min-width: calc(100% / 8);
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

@@ -1,0 +1,29 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid rgb(59, 235, 247);
+}
+.button {
+    border-radius: 15px;
+    padding: 2px 12px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+}
+button{
+    background-color: transparent;
+}
+.active {
+    position: absolute;
+    height: 100%;
+    border-radius: 15px;
+    z-index: -1;
+    background-color: rgb(1, 85, 120);
+    border: 1px solid rgb(59, 235, 247);
+    transition: all 0.5s ease;
+}

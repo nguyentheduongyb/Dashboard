@@ -1,0 +1,98 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+    ::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        border-radius: 15px;
+        background-color: transparent;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        background: linear-gradient(
+            90deg,
+            rgb(45, 127, 209) 0%,
+            rgb(190, 137, 137) 100%
+        );
+        max-width: 20% !important;
+        border-radius: 15px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(
+            90deg,
+            rgb(15, 111, 207) 0%,
+            rgb(195, 125, 125) 100%
+        );
+    }
+    ::-webkit-resizer {
+        max-width: 12px !important;
+    }
+}
+.list {
+    width: 100vw;
+    border-radius: 4px;
+    display: flex;
+    overflow: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.item {
+    min-width: calc(100% / 3);
+    margin: 0 4px;
+}
+.name {
+    background: -webkit-linear-gradient(rgb(235, 11, 11), rgb(18, 5, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.popular {
+    background: -webkit-linear-gradient(rgb(84, 22, 200), rgb(177, 209, 14));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.item:first-child {
+    margin-left: 0;
+}
+img {
+    border-radius: 4px;
+    width: 100%;
+}
+
+.blur {
+    width: 30px;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    right: 0px;
+    background: linear-gradient(
+        to right,
+        rgb(220, 218, 239, 0) 0%,
+        rgb(220, 217, 239) 100%
+    );
+}
+@media (min-width: 740px) {
+    .item {
+        margin: 0 8px;
+    }
+    .list {
+        width: 100%;
+    }
+}
+@media (min-width: 1113px) {
+    .container {
+        width: 1200px;
+    }
+    .list {
+        width: 100%;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+}

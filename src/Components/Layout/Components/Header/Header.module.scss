@@ -1,0 +1,59 @@
+.header{
+    height: 60px;
+    font-weight: bold;
+    position: fixed;
+    z-index: 999999;
+    width: 100%;
+    background: linear-gradient(
+        90deg,
+        rgb(148, 192, 239) 0%,
+        rgb(252, 229, 239) 100%
+    );  
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+.menu{
+    gap: 15px;
+}
+.language{
+    line-height: 1;
+    padding: 8px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.login{
+    padding: 8px 12px;
+    line-height: 1;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #e83030;
+}
+.actions{
+    gap:15px;
+
+    div{
+        cursor: pointer;
+    }
+}
+.avatar{
+    width: 32px;
+    height: 32px;
+    position: relative;
+    cursor: pointer;
+}
+.options{
+    background-color: #fff;
+    background-clip: padding-box;
+    padding: 8px;
+    display: none;
+    z-index: 999999999999999999999;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    color: #212529;
+    text-align: left;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+}
+.active{
+    display: block !important;
+}
